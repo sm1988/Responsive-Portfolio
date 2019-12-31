@@ -1,40 +1,55 @@
 <!doctype html>
 <html lang="en-us">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
 
-<div class="wrapper">
+  <div class="wrapper">
+    <header class="head">
+      <div class="container">
+        <a href="index.html" id="logo">Shishir Mishra</a>
+        <nav>
+          <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <header class="head">
-    <div class="container">
-      <a href="index.html" id="logo">Shishir Mishra</a>
-      <nav>
-        <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <main class="container">
+      <section class="content">
+        <h1>Contact</h1>
+        <form action="action_page.php">
 
-  <main class="container">
-    <section class="content">
-      <h1>Contact</h1>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    </section>
-  </main>
-</div>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
+
+        </form>
+      </section>
+    </main>
+  </div>
 
   <footer>
     <div class="container">
-        <p> copyright © 2020 Shishir Mishra </p>
+      <p> copyright © 2020 Shishir Mishra </p>
     </div>
   </footer>
 </body>
+
 </html>

@@ -122,12 +122,45 @@ main {
 .content {
   float: left;
   width: 100%;
-  max-width: 650px;
+  max-width: 700px;
   padding: 40px;
   margin: 0 0 30px;
   background: #fff;
   border: 1px solid #ddd;
 }
 
+/* Portfolio Grid */
+
+.grid {
+  width: 200px;
+  position: relative;
+  float: left;
+  margin: 10px;
+  overflow: auto;
+}
+
+/* Contact Page */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
 
